@@ -47,6 +47,7 @@ main {
 
 .footer-link-list {
   display: flex;
+  flex-direction: column;
   width: 95%;
   justify-content: center;
   align-items: center;
@@ -72,6 +73,7 @@ main {
 
 @media (min-width: 600px) {
   main { grid-template-columns: repeat(2, 1fr); }
+  .footer-link-list { flex-direction: row; }
 }
 
 @media (min-width: 900px) {
